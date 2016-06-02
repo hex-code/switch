@@ -1,0 +1,119 @@
+{
+	"spec": [
+		{
+			"span-text": "Type-1",
+			"button-text": "Desktop Computer",
+			"spec-type": "1",
+			"data-num": "1",
+			"class": "show"
+		},
+		{
+			"span-text": "Type-1",
+			"button-text": "Windows",
+			"spec-type": "1",
+			"data-num": "1",
+			"data-universal": "true",
+			"class": "show additional"
+		},
+		{
+			"span-text": "Type-2",
+			"button-text": "Laptop",
+			"spec-type": "2",
+			"data-num": "1",
+			"data-universal": "true",
+			"class": "show"
+		},
+		{
+			"span-text": "Type-2",
+			"button-text": "Toshiba",
+			"spec-type": "2",
+			"data-num": "1",
+			"class": "show"
+		},
+		{
+			"span-text": "Type-1",
+			"button-text": "Mac OS",
+			"spec-type": "3",
+			"data-num": "1",
+			"data-universal": "true",
+			"class": "show"
+		},
+		{
+			"span-text": "Type-1",
+			"button-text": "After installing drivers",
+			"spec-type": "1",
+			"data-num": "1",
+			"data-universal": "true",
+			"class": "show"
+		},
+		{
+			"span-text": "Type-1",
+			"button-text": "Linux",
+			"spec-type": "1",
+			"data-num": "1",
+			"data-universal": "true",
+			"class": "show"
+		},
+		{
+			"span-text": "Type-2",
+			"button-text": "Samsung",
+			"spec-type": "2",
+			"data-num": "1",
+			"class": "show"
+		},
+		{
+			"span-text": "Type-1",
+			"button-text": "Nothing else worked",
+			"spec-type": "1",
+			"data-num": "1",
+			"data-universal": "true",
+			"class": "show"
+		},
+		{
+			"span-text": "Type-2",
+			"button-text": "MSI",
+			"spec-type": "2",
+			"data-num": "1",
+			"class": "show"
+		},
+		{
+			"span-text": "Type-2",
+			"button-text": "After (un)installing programs",
+			"spec-type": "1",
+			"data-num": "1",
+			"data-universal": "true",
+			"class": "show"
+		},
+		{
+			"span-text": "Type-2",
+			"button-text": "Haven't restarted the computer in a while",
+			"spec-type": "1",
+			"data-num": "1",
+			"data-universal": "true",
+			"class": "show"
+		},
+		{
+			"span-text": "Type-2",
+			"button-text": "HP",
+			"spec-type": "2",
+			"data-num": "1",
+			"class": "show"
+		},
+		{
+			"span-text": "Type-2",
+			"button-text": "After Upgrading to Windows 10",
+			"spec-type": "2",
+			"data-num": "1",
+			"data-universal": "true",
+			"class": "additional"
+		},
+		{
+			"span-text": "Type-2",
+			"button-text": "Testing",
+			"spec-type": "2",
+			"data-num": "1",
+			"data-universal": "true",
+			"class": "additional"
+		}
+	]
+}

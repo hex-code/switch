@@ -1,0 +1,21 @@
+html,
+body {
+	height: 100%;
+    // text-rendering: geometricPrecision;
+    // -webkit-font-smoothing: subpixel-antialiased;
+    	//color: $text-color;
+    	line-height: 160%;
+}
+body {
+	font-family: $text;
+}
+body > * {
+    transition: opacity 0s;
+}
+body:not(.loaded) > * {
+    opacity: 0;
+}
+
+a {
+    outline: none !important;
+}

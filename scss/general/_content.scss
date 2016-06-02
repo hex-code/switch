@@ -1,0 +1,29 @@
+// row general style ------------------------------------------------------------ //
+.row {
+    //outline: 1px solid rgba(134, 134, 134, 0.26);
+    max-width: 300px;
+    @media #{$mobile-up} {                          // 0
+        max-width: 300px;
+    }
+    @media #{$screen} and (min-width: 385px) {     // 385
+        max-width: 360px;
+    }
+    @media #{$x_mobile-up} {                        // 481
+        max-width: 460px;
+    }
+    @media #{$xx_mobile-up} {                       // 641
+        max-width: 620px;
+    }
+    @media #{$tablet-up} {                          // 854
+        max-width: 840px;
+    }
+    @media #{$x_tablet-up} {                        // 1025
+        max-width: 1000px;
+    }
+    @media #{$monitor-up} {                         // 1261
+        max-width: 1260px;
+    }
+    @media #{$x_monitor-up} {                       // 1681
+        max-width: 1640px;
+    }
+}

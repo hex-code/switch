@@ -1,0 +1,90 @@
+//
+// FOUNDATION SETTINGS
+//
+
+
+// This is the default html and body font-size for the base rem value.
+$rem-base: 16px;
+
+// Allows the use of rem-calc() or lower-bound() in your settings
+@import "foundation/functions";
+
+// $experimental: true;
+
+// The default font-size is set to 100% of the browser style sheet (usually 16px)
+// for compatibility with brower-based text zoom or user-set defaults.
+
+// Since the typical default browser font-size is 16px, that makes the calculation for grid size.
+// If you want your base font-size to be different and not have it affect the grid breakpoints,
+// set $rem-base to $base-font-size and make sure $base-font-size is a px value.
+$base-font-size: 16px; 
+ 
+// The $base-line-height is 100% while $base-font-size is 150%
+// $base-line-height: 150%;
+
+// $alert-color: #f04124;
+// $success-color: #43AC6A;
+// $warning-color: #f08a24;
+// $info-color: #a0d3e8;
+
+// We use this to control whether  or not CSS classes come through in the gem files.
+$include-html-classes: true;
+$include-print-styles: false;
+$include-html-global-classes: $include-html-classes;
+
+// Grid
+$include-html-grid-classes: true;
+
+$row-width: none;
+$column-gutter: 16px;
+$total-columns: 12;
+
+// We use these to control various global styles
+$body-bg: #fff;
+$title: sans-serif;
+$text: sans-serif;
+
+// We use this to control font-smoothing
+// $font-smoothing: antialiased;
+
+// We use these to make sure border radius matches unless we want it different.
+
+// Media Query Ranges
+$mobile-range: (0px, 480px);
+$x_mobile-range: (481px, 640px);
+$xx_mobile-range: (641px, 853px);
+$tablet-range: (854px, 1024px);
+$x_tablet-range: (1025px, 1260px);
+$monitor-range: (1261px, 1680px);
+$x_monitor-range: (1681px);
+
+$screen: "only screen";
+
+$mobile-up: $screen;
+$mobile-only: "#{$screen} and (max-width: #{upper-bound($mobile-range)})";
+
+$x_mobile-up: "#{$screen} and (min-width:#{lower-bound($x_mobile-range)})";
+$x_mobile-only: "#{$screen} and (min-width:#{lower-bound($x_mobile-range)}) and (max-width:#{upper-bound($x_mobile-range)})";
+
+$xx_mobile-up: "#{$screen} and (min-width:#{lower-bound($xx_mobile-range)})";
+$xx_mobile-only: "#{$screen} and (min-width:#{lower-bound($xx_mobile-range)}) and (max-width:#{upper-bound($xx_mobile-range)})";
+
+$tablet-up: "#{$screen} and (min-width:#{lower-bound($tablet-range)})";
+$tablet-only: "#{$screen} and (min-width:#{lower-bound($tablet-range)}) and (max-width:#{upper-bound($tablet-range)})";
+
+$x_tablet-up: "#{$screen} and (min-width:#{lower-bound($x_tablet-range)})";
+$x_tablet-only: "#{$screen} and (min-width:#{lower-bound($x_tablet-range)}) and (max-width:#{upper-bound($x_tablet-range)})";
+
+$monitor-up: "#{$screen} and (min-width:#{lower-bound($monitor-range)})";
+$monitor-only: "#{$screen} and (min-width:#{lower-bound($monitor-range)}) and (max-width:#{upper-bound($monitor-range)})";
+
+$x_monitor-up: "#{$screen} and (min-width:#{lower-bound($x_monitor-range)})";
+$x_monitor-only: "#{$screen} and (min-width:#{lower-bound($x_monitor-range)}) and (max-width:#{upper-bound($x_monitor-range)})";
+
+$mobile: $mobile-up;
+$x_mobile: $x_mobile-up;
+$xx_mobile: $xx_mobile-up;
+$tablet: $tablet-up;
+$x_tablet: $x_tablet-up;
+$monitor: $monitor-up;
+$x_monitor: $x_monitor-up;
